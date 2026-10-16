@@ -1,0 +1,119 @@
+{
+  "sites_in_top20": 8,
+  "n_sites": 8,
+  "mann_whitney_p": 8.99017603514774e-06,
+  "site_percentiles": {
+    "Viking 1": 99.0,
+    "Pathfinder": 99.0,
+    "Spirit": 82.0,
+    "Opportunity": 86.3,
+    "Curiosity": 87.0,
+    "InSight": 96.0,
+    "Perseverance": 83.7,
+    "Zhurong": 99.0
+  },
+  "strict": "Against constraint-passing ground only: 4 of 8 sites in the top 20% (one-sided p = 0.0035).",
+  "site_percentiles_passing": {
+    "Viking 1": 97.5,
+    "Pathfinder": 97.4,
+    "Spirit": 51.8,
+    "Opportunity": 61.1,
+    "Curiosity": 63.3,
+    "InSight": 90.4,
+    "Perseverance": 55.8,
+    "Zhurong": 97.6
+  },
+  "ahp_cr": 0.00666938671890558,
+  "top10": [
+    {
+      "rank": 1,
+      "area_km2": 137.9848,
+      "mean_score": 0.9042,
+      "max_score": 0.9787,
+      "lon": -33.0765,
+      "lat": 0.8489,
+      "lon_e360": 326.9235
+    },
+    {
+      "rank": 2,
+      "area_km2": 129.9695,
+      "mean_score": 0.9025,
+      "max_score": 0.9841,
+      "lon": -32.7414,
+      "lat": 1.2384,
+      "lon_e360": 327.2586
+    },
+    {
+      "rank": 3,
+      "area_km2": 20632.2554,
+      "mean_score": 0.8988,
+      "max_score": 0.9841,
+      "lon": -34.8522,
+      "lat": -3.0332,
+      "lon_e360": 325.1478
+    },
+    {
+      "rank": 4,
+      "area_km2": 136.9865,
+      "mean_score": 0.8889,
+      "max_score": 0.9628,
+      "lon": -33.0121,
+      "lat": -0.7979,
+      "lon_e360": 326.9879
+    },
+    {
+      "rank": 5,
+      "area_km2": 69.8876,
+      "mean_score": 0.8878,
+      "max_score": 0.9436,
+      "lon": -33.2235,
+      "lat": 3.2471,
+      "lon_e360": 326.7765
+    },
+    {
+      "rank": 6,
+      "area_km2": 228.8496,
+      "mean_score": 0.8852,
+      "max_score": 0.9683,
+      "lon": -72.0959,
+      "lat": -5.7319,
+      "lon_e360": 287.9041
+    },
+    {
+      "rank": 7,
+      "area_km2": 3200.1881,
+      "mean_score": 0.8849,
+      "max_score": 0.9476,
+      "lon": -32.3237,
+      "lat": 12.3472,
+      "lon_e360": 327.6763
+    },
+    {
+      "rank": 8,
+      "area_km2": 316.9387,
+      "mean_score": 0.8842,
+      "max_score": 0.9584,
+      "lon": 94.2974,
+      "lat": 10.1715,
+      "lon_e360": 94.2974
+    },
+    {
+      "rank": 9,
+      "area_km2": 528.7252,
+      "mean_score": 0.8839,
+      "max_score": 0.9418,
+      "lon": -34.656,
+      "lat": 12.2276,
+      "lon_e360": 325.344
+    },
+    {
+      "rank": 10,
+      "area_km2": 484.438,
+      "mean_score": 0.8839,
+      "max_score": 0.9296,
+      "lon": -20.8731,
+      "lat": 7.832,
+      "lon_e360": 339.1269
+    }
+  ]
+}

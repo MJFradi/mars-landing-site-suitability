@@ -1,0 +1,20 @@
+name: mars-gis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - gdal>=3.6
+  - proj>=9.1          # IAU_2015 planetary CRS codes (added in PROJ 8.2)
+  - pyproj>=3.4
+  - rasterio>=1.3
+  - geopandas>=0.14
+  - shapely>=2.0
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - jupyterlab
+  - pytest
+  - pip
+  - pip:
+      - -e .

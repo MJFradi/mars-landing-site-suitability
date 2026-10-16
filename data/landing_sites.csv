@@ -1,0 +1,11 @@
+# Successful landers inside +/-30 deg. Planetocentric latitude, east-positive longitude (0-360).
+# Verified 2026-10-15 against the sources in the 'source' column; see data/SOURCES.md.
+site,mission,year,lat,lon_e,chosen_for,source
+Viking 1,Viking 1,1976,22.269,312.049,safety,"Folkner et al. 1997, Science 278 (via PDS ODE landing-site list)"
+Pathfinder,Mars Pathfinder,1997,19.095,326.747,safety,"Folkner et al. 1997, Science 278 (via PDS ODE landing-site list)"
+Spirit,MER-A Spirit,2004,-14.5719,175.4785,safety+science,"Arvidson et al. 2004, Science 305 (radiometric; via PDS ODE)"
+Opportunity,MER-B Opportunity,2004,-1.9483,354.4742,safety+science,"Arvidson et al. 2004, Science 306 (radiometric; via PDS ODE)"
+Curiosity,MSL Curiosity,2012,-4.5895,137.4417,science,"Vasavada et al. 2014 / NASA GISS Mars24 (4.59 S, 137.44 E)"
+InSight,InSight,2018,4.502,135.623,safety,"Golombek et al. 2020, Nature Comms 11; NASA GISS Mars24 (4.50 N, 135.62 E)"
+Perseverance,Mars 2020 Perseverance,2021,18.4447,77.4508,science,"NASA/JPL; NASA GISS Mars24 (18.44 N, 77.45 E)"
+Zhurong,Tianwen-1 Zhurong,2021,25.066,109.925,safety+science,"Liu et al. 2022; NASA GISS Mars24 (25.07 N, 109.93 E)"

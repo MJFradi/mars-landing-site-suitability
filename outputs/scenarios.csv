@@ -1,0 +1,4 @@
+scenario,top10_overlap,mean_site_percentile,summary
+AHP (baseline),10,91.5,"8 of 8 sites fall in the top 20% (Mann-Whitney U = 7320, one-sided p = 9e-06)."
+Safety first,4,89.65,"5 of 8 sites fall in the top 20% (Mann-Whitney U = 7172, one-sided p = 2.1e-05)."
+Equal weights,3,92.55,"8 of 8 sites fall in the top 20% (Mann-Whitney U = 7404, one-sided p = 5.5e-06)."

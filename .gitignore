@@ -1,0 +1,27 @@
+# Data: raw downloads are several GB and never committed
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.tif
+*.tiff
+*.img
+*.IMG
+*.aux.xml
+*.ovr
+
+# Outputs: keep figures and the top-10 GeoPackage, drop big rasters
+outputs/*.tif
+
+# Python / Jupyter
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

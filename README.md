@@ -15,18 +15,19 @@ orbital data, reproduce the landing sites NASA and CNSA actually chose?
 p = 9 × 10⁻⁶, vs. 1,000 area-weighted random points).
 
 Against the stricter reference (only ground that already passes the hard constraints),
-**4 of 8 stay in the top 20 % (p = 0.0035)**, and they're exactly the safety-first sites:
+**4 of 8 stay in the top 20 % (p = 0.0035)**, and they're exactly the four sites chosen mainly for safety.
+The four rover sites chosen for their geology drop to the middle ("Chosen for" = primary driver of the final choice, simplified):
 
 | Site | Chosen for | Percentile (band) | Percentile (passing ground) |
 |---|---|---|---|
-| Zhurong (2021) | safety + science | 99.0 | 97.6 |
+| Zhurong (2021) | safety | 99.0 | 97.6 |
 | Viking 1 (1976) | safety | 99.0 | 97.5 |
 | Pathfinder (1997) | safety | 99.0 | 97.4 |
 | InSight (2018) | safety | 96.0 | 90.4 |
 | Curiosity (2012) | science | 87.0 | 63.3 |
-| Opportunity (2004) | safety + science | 86.3 | 61.1 |
+| Opportunity (2004) | science | 86.3 | 61.1 |
 | Perseverance (2021) | science | 83.7 | 55.8 |
-| Spirit (2004) | safety + science | 82.0 | 51.8 |
+| Spirit (2004) | science | 82.0 | 51.8 |
 
 Science-driven sites that needed guided entry or Terrain-Relative Navigation (Gale, Jezero)
 score in the middle of the safe ground. The model encodes engineering safety only, and the
@@ -92,7 +93,7 @@ only the ±30° band is streamed (or ~240 MB from its overview with `--quick`).
 - `outputs/top10_sites.gpkg` / `.csv` — top-10 zones with centroid, area and mean score
 - `outputs/prob_top10pct.tif` — Monte Carlo P(top 10 %)
 - `outputs/figures/` — hero map, criteria panel, validation, sensitivity, zoom-in, P(top 10 %) map
-- `outputs/linkedin/` — 1.91:1 post image and a 5-slide PDF carousel
+- `outputs/linkedin/` — 1.91:1 post image and a 15-slide explainer carousel (PDF + PNGs), written for non-specialists
 
 ## Limitations
 
@@ -112,7 +113,7 @@ conda activate mars-gis
 python scripts/download_data.py --quick     # or without --quick for the full 200 m DEM
 pytest                                      # 27 tests on synthetic data
 jupyter lab                                 # run notebooks 01 → 04
-python scripts/make_linkedin_images.py      # optional: post image + PDF carousel
+python scripts/make_linkedin_images.py      # optional: post image + 15-slide explainer carousel
 ```
 
 If `pyproj` can't find `IAU_2015` codes, another PROJ install is shadowing yours (for
